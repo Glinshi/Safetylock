@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eindopdracht Frontend2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/af6c10af1c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <article class="card" id="js--card">
+        <header class="safetylock__header">
+            <h2 class="safetylock__heading">Safetylock</h2>
+        </header>
+        <section class="safetylock__body">
+            <ul class="safetylock__tasks1" id="js--list">
+                <li class="safetylock__task">URL / naam</li>
+                <li class="safetylock__task">
+                    <input type="text" placeholder="" class="safetylock__input" id="js--safetylock__input1">
+                </li>
+
+            </ul>
+            <ul class="safetylock__tasks2" id="js--list">
+                <li class="safetylock__task" data-running="false">Wachtwoord</li>
+                <li class="safetylock__task">
+                    <input type="password" placeholder="" class="safetylock__input" id="js--safetylock__input2">
+                </li>
+            </ul>
+            <ul class="safetylock__tasks3" id="js--list">
+                <li>
+                <button class="safetylock__button" id="js--safetylockButton">Toevoegen</button>
+            </li>
+            </ul>
+        </section>
+
+    </article>
+
+    <article class="card2" id="js--card2">
+        <section class="wachtwoordenSheet__body">
+            <ul class="wachtwoordenSheet__ul" id="js--list">
+                <li class="wachtwoordenSheet__titel1" id="js--wachtwoordenSheetTitel1">Test #1</li>
+                <li class="wachtwoordenSheet__codeEnButtons">
+                    <span class="wachtwoordenSheet__wachtwoorden" id="js--wachtwoordenSheetWachtwoorden1"></span>
+                    <div class="wachtwoordenSheet__buttons">
+                        <button class="wachtwoordenSheet__buttonShow wachtwoordenSheet__buttonShow1"
+                            id="js--wachtwoordenSheetButtonShow1">Show</button>
+                        <button class="wachtwoordenSheet__buttonVerwijder wachtwoordenSheet__buttonVerwijder1"
+                            id="js--wachtwoordenSheetButtonVerwijder1">Verwijder</button>
+                    </div>
+                </li>
+                <li class="wachtwoordenSheet__titel2" id="js--wachtwoordenSheetTitel2">Test #2</li>
+                <li class="wachtwoordenSheet__codeEnButtons">
+                    <span class="wachtwoordenSheet__wachtwoorden" id="js--wachtwoordenSheetWachtwoorden2"></span>
+                    <div class="wachtwoordenSheet__buttons">
+                        <button class="wachtwoordenSheet__buttonShow wachtwoordenSheet__buttonShow2"
+                            id="js--wachtwoordenSheetButtonShow2">Show</button>
+                        <button class="wachtwoordenSheet__buttonVerwijder wachtwoordenSheet__buttonVerwijder2"
+                            id="js--wachtwoordenSheetButtonVerwijder2">Verwijder</button>
+                    </div>
+                </li>
+                <li class="wachtwoordenSheet__titel3" id="js--wachtwoordenSheetTitel3">school.nl</li>
+                <li class="wachtwoordenSheet__codeEnButtons">
+                    <span class="wachtwoordenSheet__wachtwoorden" id="js--wachtwoordenSheetWachtwoorden3"></span>
+                    <div class="wachtwoordenSheet__buttons">
+                        <button class="wachtwoordenSheet__buttonShow wachtwoordenSheet__buttonShow3"
+                            id="js--wachtwoordenSheetButtonShow3">Show</button>
+                        <button class="wachtwoordenSheet__buttonVerwijder wachtwoordenSheet__buttonVerwijder3"
+                            id="js--wachtwoordenSheetButtonVerwijder3">Verwijder</button>
+                    </div>
+                </li>
+                <li class="wachtwoordenSheet__titel4" id="js--wachtwoordenSheetTitel4">wachtwoorden.nl</li>
+                <li class="wachtwoordenSheet__codeEnButtons">
+                    <span class="wachtwoordenSheet__wachtwoorden" id="js--wachtwoordenSheetWachtwoorden4"></span>
+                    <div class="wachtwoordenSheet__buttons">
+                        <button class="wachtwoordenSheet__buttonShow wachtwoordenSheet__buttonShow4"
+                            id="js--wachtwoordenSheetButtonShow4">Show</button>
+                        <button class="wachtwoordenSheet__buttonVerwijder wachtwoordenSheet__buttonVerwijder4"
+                            id="js--wachtwoordenSheetButtonVerwijder4">Verwijder</button>
+                    </div>
+                </li>
+                <li class="wachtwoordenSheet__showAllli">
+                    <button class="wachtwoordenSheet__showAllButton" id="wachtwoordenSheetShowAllButton">Show
+                        all</button>
+                </li>
+
+
+            </ul>
+
+        </section>
+
+    </article>
+    <article class="fabButton">
+        <section class="fabButtonSection">
+            <ul class="fabButtonSection-ul">
+                <li><button id="js--fab" class="fab"><-></button></li>
+                <li><button id="js--refresh" class="refresh"><i class="fa-sharp fa-solid fa-rotate"></i></button></li>
+            </ul>
+        </section>
+    </article>
+
+</body>
+
+</html>

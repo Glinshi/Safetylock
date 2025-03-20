@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    min-height: 100vh;
+    padding-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    gap: 50px;
+
+
+
+}
+
+
+.card {
+    min-height: 480px;
+    min-width: 350px;
+    border: 2px solid black;
+    padding: 30px;
+    background: white;
+
+
+
+
+}
+
+.safetylock__heading {
+    padding-bottom: 60px;
+    font-weight: normal;
+    font-size: 38px;
+
+}
+
+.safetylock__tasks1,
+.safetylock__tasks2,
+.safetylock__tasks3 {
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 70%;
+}
+
+.safetylock__input {
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.safetylock__button {
+    height: 45px;
+    width: 130px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #12CDD4;
+    border: 2px solid black;
+    font-size: 15px;
+}
+
+.safetylock__button:hover {
+    cursor: pointer;
+}
+
+.card2 {
+    min-height: 480px;
+    min-width: 350px;
+    border: 2px solid black;
+    padding: 50px 5px 5px 30px;
+    background: white;
+
+
+
+
+}
+
+.wachtwoordenSheet__body {
+    font-size: 120%;
+
+
+}
+
+
+.wachtwoordenSheet__ul {
+    list-style: none;
+
+}
+
+.wachtwoordenSheet__ul li {
+    padding-bottom: 10px;
+}
+
+.wachtwoordenSheet__titel {
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.wachtwoordenSheet__codeEnButtons {
+    max-width: 311.8px;
+    display: flex;
+}
+
+.wachtwoordenSheet__wachtwoorden {
+    min-width: 175px;
+    max-width: 175px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.wachtwoordenSheet__buttons {
+    display: flex;
+    gap: 6px;
+    width: 181.8px;
+}
+
+
+.wachtwoordenSheet__buttonShow {
+    font-size: 60%;
+    height: 32px;
+    width: 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #12CDD4;
+    border: 2px solid black;
+
+}
+
+.wachtwoordenSheet__buttonShow:hover,
+.wachtwoordenSheet__buttonShow1:hover,
+.wachtwoordenSheet__buttonShow2:hover,
+.wachtwoordenSheet__buttonShow3:hover,
+.wachtwoordenSheet__buttonShow4:hover {
+    cursor: pointer;
+
+}
+
+
+
+.wachtwoordenSheet__buttonVerwijder {
+    font-size: 40%;
+    height: 32px;
+    width: 55px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DA0063;
+    border: 2px solid black;
+
+}
+
+.wachtwoordenSheet__buttonVerwijder:hover,
+.wachtwoordenSheet__buttonVerwijder1:hover,
+.wachtwoordenSheet__buttonVerwijder2:hover,
+.wachtwoordenSheet__buttonVerwijder3:hover,
+.wachtwoordenSheet__buttonVerwijder4:hover {
+    cursor: pointer;
+
+}
+
+.wachtwoordenSheet__showAllli {
+    padding-left: 20vh;
+    padding-top: 30px;
+
+
+}
+
+.wachtwoordenSheet__showAllButton {
+    font-size: 15px;
+    height: 40px;
+    width: 125px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #12CDD4;
+    border: 2px solid black;
+
+}
+
+.wachtwoordenSheet__showAllButton:hover {
+    cursor: pointer;
+
+}
+
+
+
+.fabButton {
+    height: 480px;
+    width: 350px;
+    padding-right: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+
+}
+
+.fabButtonSection {
+    min-height: 80px;
+    min-width: 80px;
+    padding-top: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.fabButtonSection-ul {
+    list-style: none;
+    display: flex;
+
+    align-items: center;
+    gap: 15px;
+
+}
+
+
+.refresh {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 15%;
+    font-size: 150%;
+    color: black;
+    border: 7px solid black;
+    background: red;
+
+
+
+}
+
+.fab {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 15%;
+    font-size: 150%;
+    color: black;
+    border: 7px solid black;
+    background: red;
+
+
+
+}
+
+.fab:hover {
+    cursor: pointer;
+}
+
+.refresh {
+
+    height: 60px;
+    width: 60px;
+    border-radius: 15%;
+    font-size: 150%;
+    color: black;
+    border: 7px solid black;
+    background: white;
+
+
+
+}
+
+.refresh:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1149px) {
+    body {
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
+
+    .fabButton {
+        height: 480px;
+        width: 350px;
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+
+    }
+
+    .fabButtonSection {
+        height: 80px;
+        width: 80px;
+        padding-top: 0px;
+        padding-bottom: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+
+    }
+}
+
+.fab {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 15%;
+    font-size: 150%;
+    color: black;
+    border: 7px solid black;
+    background: red;
+
+
+
+}
+
+.refresh {
+
+    height: 60px;
+    width: 60px;
+    border-radius: 15%;
+    font-size: 150%;
+    color: black;
+    border: 7px solid black;
+    background: white;
+
+
+}
+
+
+@media screen and (min-width: 1149px) {
+
+    .card {
+        min-height: 480px;
+        min-width: 350px;
+        border: 2px solid black;
+        padding-bottom: 30px;
+        background: white;
+    }
+
+    .card2 {
+        min-height: 480px;
+        min-width: 350px;
+        border: 2px solid black;
+        padding: 50px 5px 5px 30px;
+        background: white;
+
+
+
+
+    }
+
+
+
+
+
+}
